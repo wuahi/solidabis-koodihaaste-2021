@@ -110,8 +110,6 @@ const Panel = (props) => {
       return null;
     }
 
-    console.log('herererre');
-
     if (direction === 'greater') {
       return value1 > value2;
     } else if (direction === 'smaller') {
